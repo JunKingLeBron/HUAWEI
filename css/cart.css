@@ -1,0 +1,262 @@
+body,html{
+	background:#f5f5f5;
+}
+#header_nav_wrapper{
+	background:#fff;
+}
+.header_cart{
+	height:30px;
+}
+.nav_cart{
+	width: 1242px;
+	height:30px;
+	background:#fff;
+}
+.nav_cart ul{
+	width:700px;
+	height:30px;
+	line-height:30px;
+}
+.nav_cart ul li:first-child{
+	/*padding-left:0;*/
+}
+.nav_cart ul li {
+	float:left;
+	position:relative;
+	margin: 0 8px;
+}
+.nav_cart ul li:first-child:before{
+	display:none;
+}
+.nav_cart ul li:before{
+	content:"";
+	width:1px;
+	height:10px;
+	background:#d3d3d3;
+	position:absolute;
+	display:block;
+	left:-8px;
+	top:10px;
+}
+/*logo*/
+#logo_cart_wrapper{
+	background:#fff;
+}
+.logo_cart{
+	display:flex;
+	justify-content:flex-start;
+	height:70px;
+	line-height:70px;
+}
+.logo_cart a{
+	width:94px;
+	height:50px;
+	display:block;
+}
+.logo_cart a img{
+	display:block;
+}
+.logo_cart span{
+	font-weight:700;
+	margin-left: 26px;
+    font-size: 22px;
+    line-height: 50px;
+}
+.mycart{
+
+}
+.cart_title{
+	margin-top:20px;
+	background: #fff;
+    line-height: 40px;
+    padding-left: 40px;
+    color: #a4a4a4;
+    height:40px;
+}
+.checkall{
+	float: left;
+    width: 150px;
+}
+.checkall input{
+	border: 0 none;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-position: -18px -129px;
+    vertical-align: text-top;
+    color: hsla(0,0%,100%,0);
+    cursor: default;
+    font-size: 0;
+    background-color:#dd686e;
+}
+.cart_title ul{
+	float:left;
+	height:40px;
+	width:970px;
+}
+.cart_title ul li{
+	float:left;
+    width: 100px;
+    margin-left: 30px;
+    min-height: 14px;
+    text-align: center;
+}
+.cart_title ul li:first-child{
+	width: 450px;
+    text-align: left;
+    margin-left: 0;
+}
+/*购物车列表*/
+.mate_selected_all{
+	/*min-height:120px;*/
+}
+.mate_selected{
+	background: #fff;
+    padding-left: 40px;
+    margin-top: 10px;
+    padding-top: 20px;
+    width:1200px;
+    height:120px;
+}
+.p_checkone {
+	width:100px;
+	height:100px;
+}
+.p_checkone>input{
+	margin-top:30px;
+	float:left;
+	margin-right: 10px;
+    cursor: pointer;
+	border: 0 none;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-position: -18px -129px;
+    vertical-align: text-top;
+    color: hsla(0,0%,100%,0);
+    cursor: default;
+    font-size: 0;
+}
+.p_checkone .p-img{
+	width: 78px;
+    height:78px;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+}
+
+.goodPrice,#num_total,#price_total,.goodTotalPrice{
+	font-size:14px;
+	font-weight:800;
+	color:#ca151e;
+}
+.cartShowImg{
+	width:78px;
+	height:78px;
+}
+.mate_selected ul{
+	float:left;
+	width:970px;
+	height:80px;
+	line-height:80px;
+	padding-left:29px;
+}
+.mate_selected ul li:first-child{
+	width: 450px;
+    text-align: left;
+    margin-left: 0;
+}
+.mate_selected ul li{
+	float:left;
+    width: 100px;
+    margin-left: 30px;
+    min-height: 14px;
+    text-align: center;
+}
+.mate_selected>ul>li>.p_del{
+	cursor:pointer;
+}
+/*加减操作*/
+.p-stock{
+	margin-top:20px;
+    width: 100px;
+    margin-left: 10px;
+    min-height: 14px;
+    text-align: center;
+}
+.p-stock-area{
+	
+	display: block;
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+    margin: 0 auto;
+    width: 63px;
+    height: 44px;
+}
+.p-stock-area>input{
+	float: left;
+    width: 41px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    box-sizing:border-box;
+    border-right: 1px solid #e2e2e2;
+    color:#ca151e;
+}
+.p-stock-btn{
+	width: 22px;
+    float: left;
+}
+.p-stock-btn input:first-child{
+	border-bottom: 1px solid #e2e2e2;
+}
+.p-stock-btn input{
+	background:#fff;
+	border:0;
+	display: block;
+    font-size: 16px;
+    width: 22px;
+    height: 21px;
+    line-height: 22px;
+    text-align: center;
+    color: #777;
+    font-weight: 700;
+}
+.p-total{
+	background: #fff;
+    padding-left:40px;
+    margin-top: 10px;
+    padding-top: 20px;
+    width:1200px;
+    height:50px;
+}
+.p-total>div>.del_selected{
+	cursor:pointer;
+}
+
+.p-total input{
+	border: 0 none;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-position: -18px -129px;
+    vertical-align: text-top;
+    color: hsla(0,0%,100%,0);
+    cursor: default;
+    font-size: 0;
+    background-color:#dd686e;
+}
+.p-total div:first-child{
+	float: left;
+}
+.p-total div:last-child{
+	float: right;
+}
+.all_total{
+	margin-right: 124px;
+}
+.all_total>span:first-child{
+	margin-right:40px;
+}

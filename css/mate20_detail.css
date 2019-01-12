@@ -1,0 +1,187 @@
+/*Mate20*/
+#detail_wrapper{
+	height:740px;
+	background:#ffffff;
+}
+.mate_detail{
+	height:740px;
+}
+.mate_title{
+	display:flex;
+	width:1242px;
+	height:44px;
+	line-height:44px;
+}
+.mate20{
+	float:left;
+	display:flex;
+	flex-direction:column;
+	height:480px;
+}
+#mate_box{
+	float:left;
+	width:450px;
+	height:450px;
+	position:relative;
+}
+.mate_big{
+	width:400px;
+	height:400px;
+	position:absolute;
+	overflow:hidden;
+	top:0px;
+	border: 1px solid #eee;
+	left:455px;
+	background-color:#fff;
+	/*display:none;*/
+}
+.mask{
+	width: 225px;
+	height: 225px;
+	background: paleturquoise;
+	position: absolute;
+	left:0;
+	top:56px;
+	opacity: 0.3;
+	display: none;
+	cursor: move;
+}
+.mate_small{
+	position:relative;
+	width:450px;
+	height:450px;
+}
+.mate_small img{
+	width:450px;
+	height:450px;
+	position: relative;
+}
+.bigImg{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+/*加入购物车*/
+.mate_select{
+	width:730px;
+	height:500px;
+	background:#ffffff;
+	float:right;
+	position:relative;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+}
+.mate_select h1{
+	font-size: 21px;
+    max-height: 84px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    color:#3a3a3a;
+}
+.jiesshao{
+	line-height:20px;
+	font-size:14px;;
+}
+.jiesshao a{
+	text-decoration:underline;
+	color:#ca2a6a;
+}
+.jiesshao span{
+	color:#3a3a3a;
+}
+.price{
+    width:200px;
+    line-height: 30px;
+}
+.price span:last-child{
+	line-height: 30px;
+	margin-left:50px;
+	color: #ca141d;
+    font-size:24px;
+}
+.mate_code{
+	margin-left:33px;
+}
+.num_show{
+	width:65px;
+	height:46px;
+	float: left;
+    border: 1px solid #d6d6d6;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.num_show input{
+	float: left;
+    width: 41px;
+    height: 44px;
+    line-height: 44px;
+    border: 0;
+    font-size: 18px;
+    box-sizing:border-box;
+    text-align: center;
+    border-right: 1px solid #e2e2e2;
+}
+.num_show p{
+	width: 21px;
+    float: left;
+}
+.num_show p input:first-child{
+	border-bottom:1px solid #eee;
+}
+.num_show p input{
+	background:#fff;
+	border:0;
+	display: block;
+    font-size: 16px;
+    width: 21px;
+    height: 21px;
+    line-height: 22px;
+    text-align: center;
+    color: #777;
+    font-weight: bold;
+}
+.cart{
+	float:left;
+	display: block;
+    background: #fc600c;
+    width: 172px;
+    height: 46px;
+    font-size: 18px;
+    line-height: 46px;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+}
+.cart a span{
+    color: #fff;
+}
+/mate20大致图/
+.mate20 .mate_s_img{
+	padding-left:30px;
+	width:450px;
+	height:68px;
+	
+	justify-content:space-around;
+}
+.mate_s_img span{
+	margin:0 5px;
+	width:68px;
+	height:68px;
+	float:left;
+	border:0;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+}
+.mate_s_img span:hover{
+	border:1px solid #ca141d;
+}
+.mate_s_img .s_img img{
+	display:block;
+	width:60px;
+	height:60px;
+}

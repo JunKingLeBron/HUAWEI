@@ -1,0 +1,62 @@
+[
+	{
+		"bid":"01",
+		"phoneName": "荣耀Magic2",
+		"src":"images/nans2.png",
+		"price":"2999"
+	},
+	{
+		"bid":"02",
+		"phoneName": "荣耀8X Max",
+		"src":"images/rongyao.png",
+		"price":"1999"
+	},
+	{
+		"bid":"03",
+		"phoneName": "HUAWEI MATE20",
+		"src":"images/mate2.png",
+		"price":"2999"
+	},
+	{
+		"bid":"04",
+		"phoneName": "荣耀畅玩7A",
+		"src":"images/changwan.png",
+		"price":"4999"
+	},
+	{
+		"bid":"05",
+		"phoneName": "HUAWEI nova 3i",
+		"src":"images/nov.png",
+		"price":"2599"
+	},
+	{
+		"bid":"06",
+		"phoneName": "紫云笔记本",
+		"src":"images/ziyun.png",
+		"price":"6699"
+	},
+	{
+		"bid":"07",
+		"phoneName": "荣耀Magic4",
+		"src":"images/nov.png",
+		"price":"2499"
+	},
+		{
+		"bid":"08",
+		"phoneName": "HUAWEI nova 3i",
+		"src":"images/nans2.png",
+		"price":"2599"
+	},
+	{
+		"bid":"09",
+		"phoneName": "荣耀Magic3",
+		"src":"images/nans2.png",
+		"price":"2699"
+	},
+	{
+		"bid":"10",
+		"phoneName": "荣耀Magic4",
+		"src":"images/phone_s.png",
+		"price":"2499"
+	}
+]

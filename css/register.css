@@ -1,0 +1,77 @@
+#register{
+	width:530px;
+	height:540px;
+	margin:20px auto;
+}
+.phone{
+	height:130px;
+	display:flex;
+	flex-direction:column;
+}
+.phone p:nth-child(1){
+	height:48px;
+	background:#f0f0f0;
+	font-size:18px;
+	color:#191919;
+	padding-left:16px;
+	line-height:48px;
+}
+.phone p:nth-child(2){
+	padding-left:16px;
+	height:48px;
+	line-height:48px;
+	font-size:14px;
+	color:#525252;
+	position:relative;
+}
+.phone p:nth-child(2) span:last-child{
+	position:absolute;
+	right:20px;
+}
+.phone input{
+	width:498px;
+	height:33px;
+	margin-left:16px;
+	border-bottom:1px solid #e6e6e6;
+	color:#000;
+}
+#password{
+	display:flex;
+	flex-direction:column;
+	margin-top:50px;
+}
+#password input{
+	width:498px;
+	height:33px;
+	margin-left:16px;
+	border-bottom:1px solid #e6e6e6;
+	color:#000;
+}
+#password p{
+	color:#cccccc;
+	font-size:12px;
+	padding-left:16px;
+	line-height:48px;
+}
+.line{
+	margin-top:6px;
+	height:8px;
+	background:#f2f2f2;
+}
+.button{
+	height:150px;
+	display:flex;
+}
+#btn{
+	margin-left:140px;
+	align-items:center;
+	margin-top:70px;
+	display:block;
+	width:249px;
+	height:34px;
+	box-sizing: border-box;
+	border:1px solid #ccc;
+	border-radius:2px;
+	background-image: none;
+	background:rgba(255, 255, 255, 0.3);
+}
